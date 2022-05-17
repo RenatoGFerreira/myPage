@@ -3,6 +3,7 @@
 */
 body{
     font-family: system-ui, -apple-system, 'Helvetica', Arial, sans-serif;
+    color: #fff;
 }
 
 a{
@@ -34,7 +35,7 @@ nav{
 main{
     background: #000;
     background-size: cover;
-
+    min-height: 84vh;
 }
 
 /* **********
@@ -67,4 +68,53 @@ main{
     margin-left: 32px;
     text-transform: capitalize;
 }
+/* **********
+ CONFIGURAÇÕES DO MAIN - CORPO DO SITE
+*/
 
+#body-site{
+    border: 1px solid red;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 25px 0;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#principal{
+    border: 1px solid yellow;
+    width: 58vw;
+}
+
+#lateral{
+    border: 1px solid blue;
+    width: 29vw;
+}
+
+
+
+/* **********
+ CONFIGURAÇÕES DO RODAPÉ
+*/
+
+footer{
+    background-color: #23232e;
+    height: 8vh;
+    border-top: 1px solid #fff;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+footer p{
+
+    transition: .3s;
+    height: 5vh;
+    
+}
+
+footer a:hover{
+    opacity: .7;
+}
