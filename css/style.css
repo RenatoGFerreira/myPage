@@ -29,7 +29,6 @@ nav{
     align-items: center;
     height: 8vh;
     border-bottom: 1px solid #fff;
-
 }
 
 main{
@@ -73,7 +72,6 @@ main{
 */
 
 #body-site{
-    border: 1px solid red;
     width: 90vw;
     margin: 0 auto;
     padding: 25px 0;
@@ -84,16 +82,59 @@ main{
 }
 
 #principal{
-    border: 1px solid yellow;
+    background-color: rgba(35, 35, 46, 0.7);
     width: 58vw;
 }
 
 #lateral{
     border: 1px solid blue;
     width: 29vw;
+    text-align: center;
 }
 
+/* **********
+ CORPO DO SITE - PRINCIPAL
+*/
 
+
+/* **********
+ CORPO DO SITE - LATERAL
+*/
+
+#profile-picture{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 180px;
+    margin: 5px auto;
+}
+
+.profile-contact-list{
+    border: 1px solid yellow;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-contact-list li{
+    list-style: none;
+}
+
+.profile-text{
+    text-align: justify;
+    margin: auto 20px;
+}
+
+.profile-text h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+.profile-text span{
+    display: block;
+    text-align: right;
+    font-size: .8em;
+}
 
 /* **********
  CONFIGURAÇÕES DO RODAPÉ
