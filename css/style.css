@@ -66,6 +66,7 @@ main{
     letter-spacing: 3px;
     margin-left: 32px;
     text-transform: capitalize;
+    font-weight: 500;
 }
 /* **********
  CONFIGURAÇÕES DO MAIN - CORPO DO SITE
@@ -176,4 +177,56 @@ footer p{
 
 footer a:hover{
     opacity: .7;
+}
+
+
+/* **********
+ RESPONSIVIDADE
+*/
+
+@media (max-width: 999px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    main{
+        background: url(../images/background-image-min.jpg) top center no-repeat;
+        background-size: cover;
+    }
+
+    #body-site{
+        flex-direction: column;
+    }
+
+    #principal{
+        width: 70vw;
+        margin: auto;
+    }
+
+    #lateral{
+        width: 70vw;
+        margin: auto;
+        
+    }
+
+    .profile-contact-list{
+        margin: 5px auto;
+    }
+
+    .profile-text h1{
+        display: none;
+    }
+
+    .profile-text span{
+        text-align: center;
+        margin-top: 1px;
+    }
+
+    .profile-text p{
+        margin-bottom: 20px;
+    }
+
+    .custom-project{
+        margin: 10px auto;
+    }
 }
