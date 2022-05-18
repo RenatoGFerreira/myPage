@@ -84,6 +84,9 @@ main{
 #principal{
     background-color: rgba(35, 35, 46, 0.7);
     width: 58vw;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #lateral{
@@ -95,6 +98,12 @@ main{
 /* **********
  CORPO DO SITE - PRINCIPAL
 */
+.custom-project{
+    border: 1px solid #fff;
+    width: 256px;
+    height: 144px;
+    margin: auto;
+}
 
 
 /* **********
