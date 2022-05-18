@@ -105,6 +105,11 @@ main{
     margin: auto;
 }
 
+.custom-project:hover{
+    border: 1px solid rgba(255, 255, 255, .7);  
+    transition: .3s;
+}
+
 
 /* **********
  CORPO DO SITE - LATERAL
