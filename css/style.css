@@ -185,6 +185,10 @@ footer a:hover{
 */
 
 @media (max-width: 999px) {
+
+    /* **********
+     TODAS AS PÁGINAS
+    */
     body{
         overflow-x: hidden;
     }
@@ -230,6 +234,18 @@ footer a:hover{
         margin: 10px auto;
     }
 
+    /* **********
+     PAGINA SOBRE
+    */
+
+    .renato-image{
+        display: none;
+    }
+
+    /* **********
+     PAGINA PROJETOS
+    */
+
 
     /* **********
         MOBILE MENU
@@ -263,4 +279,49 @@ footer a:hover{
     .nav-list.active{
         transform: translate(0);
     }
+}
+
+
+/* **********
+    PAGINA ABOUT
+*/
+
+#about-renato{
+    width: 70vw;
+    min-width: 290px;
+    background-color: rgba(35, 35, 46, 0.7);
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.profile-text-about{
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.profile-text-about h1{
+    text-align: center;
+}
+
+.renato-image{
+    margin: 0 10px;
+}
+
+/* **********
+    PAGINA PROJETOS
+*/
+
+.page-projects{
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(35, 35, 46, 0.7);
+}
+
+.page-projects .custom-project{
+    margin: 10px auto;
+    width: 384px;
+    height: 216px;
 }
