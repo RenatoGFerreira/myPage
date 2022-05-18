@@ -32,7 +32,7 @@ nav{
 }
 
 main{
-    background: #000;
+    background: url(../images/background-image-min.jpg) center center no-repeat;
     background-size: cover;
     min-height: 84vh;
 }
