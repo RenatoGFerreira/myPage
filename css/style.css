@@ -9,6 +9,8 @@ body{
 a{
     color: #fff;
     text-decoration: none;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 
@@ -24,9 +26,14 @@ a:hover{
 
 nav{
     background-color: #23232e;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 8vh;
     border-bottom: 1px solid #fff;
 }
@@ -51,6 +58,8 @@ main{
     height: 2px;
     background-color: #fff;
     margin: 8px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 
@@ -60,6 +69,8 @@ main{
 
 .nav-list{
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav-list li{
@@ -77,17 +88,31 @@ main{
     margin: 0 auto;
     padding: 25px 0;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 #principal{
     background-color: rgba(35, 35, 46, 0.7);
     width: 58vw;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 #lateral{
@@ -107,7 +132,10 @@ main{
 }
 
 .custom-project:hover{
-    border: 1px solid rgba(255, 255, 255, .7);  
+    border: 1px solid rgba(255, 255, 255, .7); 
+    cursor: pointer; 
+    -webkit-transition: .3s;  
+    -o-transition: .3s;  
     transition: .3s;
 }
 
@@ -124,8 +152,12 @@ main{
 
 .profile-contact-list{
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .profile-contact-list li{
@@ -169,6 +201,8 @@ footer{
 }
 
 footer p{
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
     height: 5vh;
     
@@ -198,7 +232,10 @@ footer a:hover{
     }
 
     #body-site{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     #principal{
@@ -262,12 +299,28 @@ footer a:hover{
         height: 95vh;
         background-color: #23232e;
 
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+                transform: translateX(100%);
+        -webkit-transition: -webkit-transform .3s ease-in;
+        transition: -webkit-transform .3s ease-in;
+        -o-transition: transform .3s ease-in;
         transition: transform .3s ease-in;
+        transition: transform .3s ease-in, -webkit-transform .3s ease-in;
     }
 
     .nav-list li{
@@ -276,7 +329,9 @@ footer a:hover{
     }
 
     .nav-list.active{
-        transform: translate(0);
+        -webkit-transform: translate(0);
+            -ms-transform: translate(0);
+                transform: translate(0);
     }
 }
 
@@ -291,6 +346,8 @@ footer a:hover{
     background-color: rgba(35, 35, 46, 0.7);
     text-align: center;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -314,8 +371,11 @@ footer a:hover{
 .page-projects{
     margin: 0 auto;
     width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     background-color: rgba(35, 35, 46, 0.7);
 }
 
