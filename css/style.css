@@ -4,6 +4,7 @@
 body{
     font-family: system-ui, -apple-system, 'Helvetica', Arial, sans-serif;
     color: #fff;
+    overflow: hidden;
 }
 
 a{
