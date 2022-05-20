@@ -363,6 +363,27 @@ footer a:hover{
     text-align: center;
 }
 
+.profile-text-about span{
+    border: 1px solid red;
+
+}
+
+.profile-text-about h3{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.knowledges{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.knowledges img{
+    width: 80px;
+   
+}
+
 .renato-image{
     margin: 0 10px;
 }
