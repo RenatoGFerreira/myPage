@@ -282,6 +282,11 @@ footer a:hover{
         display: none;
     }
 
+    .knowledges img{
+        width: 60px;
+       
+    }
+
     /* **********
      PAGINA PROJETOS
     */
@@ -361,10 +366,12 @@ footer a:hover{
 
 .profile-text-about h1{
     text-align: center;
+    margin-bottom: 0 ;
 }
 
-.profile-text-about span{
-    border: 1px solid red;
+.profile-text-about #city{
+    display: block;
+    text-align: right;
 
 }
 
