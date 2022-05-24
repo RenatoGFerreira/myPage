@@ -1,6 +1,6 @@
 Portfolio criado por Renato Gomes Ferreira
 
-Esse site foi todo criado usando
+Esse site tem o conteudo principal todo criado usando
 
 * html
 * css 
